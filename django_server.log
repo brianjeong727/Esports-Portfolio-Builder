@@ -1,0 +1,17 @@
+Watching for file changes with StatReloader
+Internal Server Error: /api/riot/lol/na1/summoner/by-name/TestPlayer/
+[20/Oct/2025 08:30:02] "GET /api/riot/lol/na1/summoner/by-name/TestPlayer/ HTTP/1.1" 500 50
+/Users/brianjeong/Desktop/esports-portfolio-builder/backend/backend/settings.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 20, 2025 - 08:29:52
+Django version 5.2.7, using settings 'backend.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/5.2/howto/deployment/
+Watching for file changes with StatReloader
+[20/Oct/2025 08:45:37] "OPTIONS /api/profiles/ HTTP/1.1" 200 0
+[20/Oct/2025 08:45:38] "POST /api/profiles/ HTTP/1.1" 201 153
