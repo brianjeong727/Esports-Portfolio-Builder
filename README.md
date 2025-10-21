@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Esports Portfolio Builder (minimal scaffold)
 
 This repository contains a minimal Django backend and a Vite React frontend scaffold for an "Esports Portfolio Builder" demo.
@@ -43,3 +44,7 @@ Frontend (Vite + React):
   npm run dev
 
 By default the frontend will POST to `http://127.0.0.1:8000/api/profiles/`. If your backend is running on a different host, set `VITE_API_BASE` in an `.env` file inside `frontend/`.
+=======
+# Esports-Portfolio-Builder
+In progress...
+>>>>>>> 7cd374c1a061fb65d103a80873333bae65e228f8
