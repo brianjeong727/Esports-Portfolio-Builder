@@ -13,6 +13,7 @@ https://docs.djangoproject.com/en/5.2/ref/settings/
 from pathlib import Path
 import os
 
+
 # ---------------------------------------------------------------------
 # BASE CONFIGURATION
 # ---------------------------------------------------------------------
@@ -122,16 +123,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # RIOT API CONFIGURATION
 # ---------------------------------------------------------------------
 
-# Riot API key (used for server-side calls to Riot’s public endpoints)
-RIOT_API_KEY = os.getenv('RIOT_API_KEY', '')
-
-# Riot Sign-On (RSO) OAuth configuration
-# Register an OAuth client on Riot Developer Portal and set:
-#   RIOT_RSO_CLIENT_ID
-#   RIOT_RSO_CLIENT_SECRET
-#   RIOT_RSO_REDIRECT_URI
-#   RIOT_RSO_SCOPE (optional, defaults to 'openid')
-RIOT_RSO_CLIENT_ID = os.getenv('RIOT_RSO_CLIENT_ID', '')
-RIOT_RSO_CLIENT_SECRET = os.getenv('RIOT_RSO_CLIENT_SECRET', '')
-RIOT_RSO_REDIRECT_URI = os.getenv('RIOT_RSO_REDIRECT_URI', '')
-RIOT_RSO_SCOPE = os.getenv('RIOT_RSO_SCOPE', 'openid')
+RIOT_API_KEY = "RGAPI-28aec218-a863-4ccc-a28f-54a1d292d7d3"

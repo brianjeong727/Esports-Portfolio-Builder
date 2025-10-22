@@ -9,7 +9,6 @@ class ProfileListCreateAPIView(generics.ListCreateAPIView):
 	queryset = Profile.objects.all().order_by('-created_at')
 	serializer_class = ProfileSerializer
 
-
 class ProfileRetrieveAPIView(generics.RetrieveAPIView):
 	queryset = Profile.objects.all()
 	serializer_class = ProfileSerializer
